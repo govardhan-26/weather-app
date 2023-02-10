@@ -1,0 +1,117 @@
+body{
+    padding : 20px;
+    /* background-color: rgb(137, 135, 135);    */
+    background-image: url('./background1.jpeg');
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Montserrat', 'Cambria';
+}
+
+
+.Search{
+    /* border:2px solid red; */
+    height: 100%; 
+}
+.upper-con, .searchContainer, .tem
+p{
+    /* border: 1px solid whitesmoke; */
+    display: flex;
+    /* justify-content: space-between; */
+    
+} 
+
+.Location{
+    font-size: 60px;
+
+}
+
+.title{
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+    font-style: sans-serif;
+    width: fit-content;    
+    font-weight: 0.5rem;
+    /* border: 5px solid black; */
+    /* border-radius: 10px; */
+}
+
+.searchbar{
+    /* margin-left: 70vh; */
+    /* size: 100px; */
+    margin-top: 40px;
+    margin-left:5vh;
+    width:20rem;
+    height: 2rem;
+    color: white;
+    border : 10px solid white;
+    border-color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 1px solid rgb(85, 101, 115);
+    border-radius : 10px;
+}
+
+.submit{
+    margin-left: 25vh;
+    margin-top: 30px;
+    height: 3rem;
+    width:10rem;
+    font-size: 15px;
+    border-radius: 10px;
+    color:rgb(85, 104, 120);
+    
+    font-weight:bold ;
+    border:1px solid white; 
+    font-style: italic;
+    background-color: transparent;
+}
+
+
+.temp{
+    float: right;
+    color: aliceblue ;
+    font-size: 60px;
+    width : fit-content;
+    padding: 50px;
+    margin-left:15vh;
+    /* margin-right: 40vh;
+    margin-top: 60px; */
+    font-style: italic;
+    display:flex;
+    justify-content: right;   
+}
+
+.searchContainer{
+    width: max-content;
+}
+
+.Location{
+    font-size:30px;
+    width: 40%;
+    /* border: 2px solid pink; */
+    font-style: italic;
+    font-size: 2rem; 
+}
+
+.Location span{
+    display: inline-block;
+    margin-left: 10vh;
+}
+
+.Down-container{
+    display:flex;
+}
+
+.others{
+    font-style: italic;
+    font-size: 40px;
+    padding : 70px;
+}
+
+.Day{
+    text-align: right;
+    margin-left: 30vh;
+}
+.wind{
+    margin-left:60vh;
+}
